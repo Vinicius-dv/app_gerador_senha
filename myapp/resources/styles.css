@@ -1,0 +1,18 @@
+.div_senha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.gerar_senha{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+.gerar_senha:hover{
+    background-color: orange;
+}
